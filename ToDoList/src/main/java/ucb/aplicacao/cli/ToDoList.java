@@ -9,12 +9,17 @@ package ucb.aplicacao.cli;
  * @author davi.campanaro
  */
 public class ToDoList {
-
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+    
+    public static void main (String[] args){
+        System.setOut(new PrintStream(System.out, true, StandardCharsets.UTF_8));
         
-        /*teste de comentario aaaaaaaaaaaa
-        agora sim deu certo
-        */
+       Scanner entrada = new scanner(System.in);
+       TarefaService servico = new TarefaService();
+       
+       while (true)(
+       System.out.println("\n ==== GERENCIADOR DE TAREFAS ===="));
+        
     }
+
+   
 }
