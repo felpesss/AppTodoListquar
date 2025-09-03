@@ -22,8 +22,9 @@ public class Tarefas {
         this.dataAgora = LocalDateTime.now();
         this.completa = false;
     }
-    public Tarefas(){
-        
+    public Tarefas(String titulo){
+        this();
+        this.titulo = titulo;
     }
 
     
