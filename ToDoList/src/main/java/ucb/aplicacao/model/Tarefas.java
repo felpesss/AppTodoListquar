@@ -4,11 +4,19 @@
  */
 package ucb.aplicacao.model;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 /**
  *
  * @author davi.campanaro
  */
 public class Tarefas {
+    
+    private Long id;
+    private String descricao;
+    private boolean completa;
+    private LocalDateTime dataAgora;
 
     
 }
