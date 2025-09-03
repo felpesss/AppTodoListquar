@@ -29,9 +29,21 @@ public class ToDoList {
             System.out.println("4 - Remover tarefa");
             System.out.println("5 - Sair");
             System.out.print("Escolha uma opção: ");
-       }
-        
+            
+            int opcao = entrada.nextInt();
+            entrada.nextLine();
+            
+            switch (opcao){
+                case 1 -> {
+                System.out.print("Titulo");
+                String titulo = entrada.nextLine();
+                System.out.print("Descrição: ");
+                String descricao = entrada.nextLine();
+                Tarefas nova = servico.criarTarefa(titulo, descricao);
+                System.out.println("Tarefa criada: " + nova.getTitulo());        
+                }
+            }
+       }       
     }
 
-   
 }
