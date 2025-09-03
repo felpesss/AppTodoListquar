@@ -18,7 +18,13 @@ public class Tarefas {
     private boolean completa;
     private LocalDateTime dataAgora;
     
-    //ola
+    public Tarefas(){
+        this.dataAgora = LocalDateTime.now();
+        this.completa = false;
+    }
+    public Tarefas(){
+        
+    }
 
     
 }
