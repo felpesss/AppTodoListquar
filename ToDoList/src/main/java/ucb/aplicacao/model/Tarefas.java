@@ -27,6 +27,10 @@ public class Tarefas {
         this();
         this.titulo = titulo;
     }
+    public Tarefas (string Titulo, String descricao){
+        this();
+        this.descricao = descricao;     
+    }
 
     
 }
