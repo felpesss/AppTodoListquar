@@ -14,6 +14,7 @@ import java.time.format.DateTimeFormatter;
 public class Tarefas {
     
     private Long id;
+    private String titulo;
     private String descricao;
     private boolean completa;
     private LocalDateTime dataAgora;
