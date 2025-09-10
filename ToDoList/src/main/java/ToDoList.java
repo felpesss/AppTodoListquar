@@ -18,7 +18,7 @@ import ucb.aplicacao.service.TarefaService;
 public class ToDoList {
     
     public static void main (String[] args){
-        System.setOut(new PrintStream(System.out, true, StandardCharsets.UTF_8));
+       System.setOut(new PrintStream(System.out, true, StandardCharsets.UTF_8));
         
        Scanner entrada = new Scanner(System.in);
        TarefaService servico = new TarefaService();
